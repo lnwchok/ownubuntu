@@ -4,4 +4,8 @@
 <h2>Install ::</h2>
 <code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/lnwchok/ownubuntu/master/lamp.sh)"</code>
 
+<h2>Composer (Optional)  ::</h2>
+<code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/lnwchok/ownubuntu/master/composer.sh)"</code>
+
+
 by <strong>Sitthichok Punlabpho</strong>
