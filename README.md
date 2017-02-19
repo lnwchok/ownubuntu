@@ -7,5 +7,5 @@
 <h2>Composer (Optional)  ::</h2>
 <code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/lnwchok/ownubuntu/master/composer.sh)"</code>
 
-
+<br /><br /><hr />
 by <strong>Sitthichok Punlabpho</strong>
