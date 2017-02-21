@@ -1,25 +1,25 @@
  #!/bin/bash
 clear
-apt-get update
+sudo apt-get update
 
 #Install Apache2
-apt-get install -y apache2
-a2enmod rewrite
+sudo apt-get install -y apache2
+sudo a2enmod rewrite
 
 #Setup Firewall for authorize our connection
-ufw allow in "Apache Full"
+sudo ufw allow in "Apache Full"
 
 #Install MySQL server
-apt-get install -y mysql-server
-mysql_secure_installation
+sudo apt-get install -y mysql-server
+sudo mysql_secure_installation
 
 #Install PHP
-apt-get install php libapache2-mod-php php-mcrypt php-mysql
-echo '<?php phpinfo(); ?>' | sudo tee /var/www/html/info.php
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+sudo echo '<?php phpinfo(); ?>' | sudo tee /var/www/html/info.php
 
 #Install Sublime Text 3
-add-apt-repository ppa:webupd8team/sublime-text-3
-apt-get update
-apt-get install -y sublime-text-installer
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install -y sublime-text-installer
 
 clear
